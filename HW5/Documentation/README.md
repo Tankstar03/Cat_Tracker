@@ -26,3 +26,41 @@ Here is a concept design of our main sensor:
 [Image](https://n1.sdlcdn.com/imgs/f/j/6/Avishkaar-box-Sensor-Set-Advance-SDL684345531-2-5a9fd.jpg)
 
 With the information collected from the questions, this set us up for our research on some background information. (Enter information here)
+
+## Challenge 3: Surveying Potential Customers
+
+We designed our survey around the following 5 features:
+1. Should sensor include a name tag?
+2. Should the sensor display whether the cat is in the room or not?
+3. Should the sensor come attached with a collar?
+4. Should there be a phone app to receive notifications from the tracker?
+5. Should we include additional displays for the sensor to output to? For example, an extra display attatched to your wallet.
+
+Via google forms, we created our survey and followed the guideline, where for each feature, we asked the 3 relevant questions, totaling to 15 questions for responders to fill out. We had 14 responses. All respondees are college students attending UCSD, so the results of the survey should not be generalized to the whole population of cat owners. Below are all the results of our survey:
+
+![Pic](Fig/Survey_results_part1.png)
+
+![Pic](Fig/Survey_results_part2.png)
+
+![Pic](Fig/Survey_results_part3.png)
+
+![Pic](Fig/Survey_results_part4.png)
+
+![Pic](Fig/Survey_results_part5.png)
+
+![Pic](Fig/Survey_results_part6.png)
+
+![Pic](Fig/Survey_results_part7.png)
+
+![Pic](Fig/Survey_results_part8.png)
+
+Some common trends include people believing the display show whether the cat was in the room highly necessary and enjoying the idea of a collar and a name tag being included on the display. Survey results also show that including an additional sensor on such as your wallet was not very popular. The inclusion of a phone app seemed to be somewhat split on opinion.
+
+In conclusion, it seems our main customer and the respondees share the need of having the display show whether the cat is in the room or not while disagreeing on the idea of additional displays. As for the phone app, our main customer sees it as quite helpful while the respondees have a more mixed opinion, believing it to be a delight. The other 2 features mentioned are likely all seen as bonus features that would be nice if they were included. Here are our mappings based on the Kano Method:
+1. **Name tag -> Attractive**
+2. **Display cat in room -> One-Dimensional**
+3. **Collar -> Attractive**
+4. **Phone App -> One-Dimensional**
+5. **Extra Displays -> Reverse**
+
+Displaying whether or not the cat is present and creating a phone app to receive notifications from the sensor will be our priority. We will likely also follow through on displaying the name tag and have the sensor be attached to a collar, since we believe this can simplify our work.
