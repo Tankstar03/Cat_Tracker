@@ -27,6 +27,9 @@ Here is a concept design of our main sensor:
 
 With the information collected from the questions, this set us up for our research on some background information. (Enter information here)
 
+An IR (infrared) receiver works by encoding incoming IR signals (digitizing the signal) and amplifying them, this information is then trasmitted using wires into whatever your circuit is made to do. The IR remote will send an encoded (binary) message in the 38kHz range (IR range) this signal will be transmitted into the air. IR signals from a weak remote will only be detectable from a couple of feet away from the sensor, which makes its nice for detecting the cat moving near the sensor without messing with any other appliances.
+Our code for the detection of distance is fairly simple, We only need to run a code that detects the intensity from the sensor which we will have emitting a set IR key. From this point we can determine which of the 2 sensors the cat is closest too which we can use to detemrine whether the cat is in the room.
+
 ## Challenge 3: Surveying Potential Customers
 
 We designed our survey around the following 5 features:
