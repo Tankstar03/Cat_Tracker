@@ -23,7 +23,7 @@
 11. Q: Is there a TV in the room? A: No there is not.
 
 Here is a concept design of our main sensor:
-[Image](https://n1.sdlcdn.com/imgs/f/j/6/Avishkaar-box-Sensor-Set-Advance-SDL684345531-2-5a9fd.jpg)
+![jpg](sensorpic.jpg)
 
 With the information collected from the questions, this set us up for our research on some background information. We discovered the following:
 
