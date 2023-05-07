@@ -1,8 +1,8 @@
 # HW5 Report
 
-**(Names)**
+**Aleksandar Jeremic, Jason Jiang, Andy Zhang**
 
-**5/3/23**
+**5/6/23**
 
 ## Challenge 1: Customer Pitch
 
@@ -25,7 +25,7 @@
 Here is a concept design of our main sensor:
 [Image](https://n1.sdlcdn.com/imgs/f/j/6/Avishkaar-box-Sensor-Set-Advance-SDL684345531-2-5a9fd.jpg)
 
-With the information collected from the questions, this set us up for our research on some background information. (Enter information here)
+With the information collected from the questions, this set us up for our research on some background information. We discovered the following:
 
 An IR (infrared) receiver works by encoding incoming IR signals (digitizing the signal) and amplifying them, this information is then trasmitted using wires into whatever your circuit is made to do. The IR remote will send an encoded (binary) message in the 38kHz range (IR range) this signal will be transmitted into the air. IR signals from a weak remote will only be detectable from a couple of feet away from the sensor, which makes its nice for detecting the cat moving near the sensor without messing with any other appliances.
 Our code for the detection of distance is fairly simple, We only need to run a code that detects the intensity from the sensor which we will have emitting a set IR key. From this point we can determine which of the 2 sensors the cat is closest too which we can use to detemrine whether the cat is in the room.
