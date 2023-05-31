@@ -16,3 +16,12 @@ Our initial plan for our prototype was to consist of 2 parts: an emitter that se
 
 ## Challenge 2: Customer Feedback & Project Plan
 
+### Project Update
+After further research and checking in with the professor, we decided on a few changes for our project. Instead of using infrared sensors, we will use low energy bluetooth sensors. In addition, we have changed our intitial prototype to now consist of 3 parts. The emitter is the same as before, attached to the collar of the cat and constantly emitting a signal. The receiver is now 2 separate parts, one is the Near sensor, which will be placed right next to the door, the other is the Far sensor, which will be placed on the other side of the room.
+
+The algorithm for determining the position of the cat has changed too. The new algorithm will have the receivers constantly calculating the distance from the cat. The cat will have entered the room if the Near sensor detects a change in distance while the Far sensor detects a continuous decrease in distance. The cat will have left the room if the Near sensor detects a change in distance while the Far sensor detects a countinuous increase in distance.
+
+### Customer Feedback
+Our customer was generally unopposed to all the suggested changes we made. No significant suggestions were made.
+
+### Project Plan
