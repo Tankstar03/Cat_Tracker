@@ -25,3 +25,17 @@ The algorithm for determining the position of the cat has changed too. The new a
 Our customer was generally unopposed to all the suggested changes we made. No significant suggestions were made.
 
 ### Project Plan
+**6/4/23** -
+Get the ESP 32s to communicate with each other. This will then allow the receivers to speak to each other, critical to the algorithm.
+
+**6/7/23** -
+Finish the poster in preparation for the final presentation.
+
+**6/9/23** -
+Finish the lab report
+
+**6/15/23** -
+Final poster presentation
+
+## Challenge 3: Initial Prototype
+
