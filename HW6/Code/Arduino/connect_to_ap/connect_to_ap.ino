@@ -1,5 +1,5 @@
 #include <WiFi.h>
-const char* ssid = "Andy";   /*Replace SSID of your network*/
+const char* ssid = "Jason";   /*Replace SSID of your network*/
 
 void initWiFi() {
   WiFi.mode(WIFI_STA);  /*Initialize ESP32 WiFi in station mode*/

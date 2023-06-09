@@ -3,7 +3,6 @@
 
 // Set your access point network credentials
 const char* ssid = "Andy";
-
 void setup() {
    Serial.begin(115200);
   // put your setup code here, to run once:
