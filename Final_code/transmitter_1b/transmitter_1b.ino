@@ -3,7 +3,7 @@
 #include <Wire.h>
 
 // REPLACE WITH YOUR ESP RECEIVER'S MAC ADDRESS
-uint8_t broadcastAddress[] = {0x24, 0x6F, 0x28, 0x97, 0x69, 0x04};
+uint8_t broadcastAddress[] = {0x24, 0x6F, 0x28, 0x97, 0x74, 0xFA};
 
 typedef struct struct_message {
   int id; // must be unique for all of them
@@ -52,7 +52,7 @@ void loop() {
     int c = Wire.read(); // receive a byte as character
     Serial.println(c);         // print the character
     myData.id = 1; //NEED TO CHANGE FOR EACH ONE
-    myData.x = c
+    myData.x = c;
      esp_err_t result = esp_now_send(broadcastAddress, (uint8_t *) &myData, sizeof(myData));
    
   if (result == ESP_OK) {
