@@ -1,13 +1,4 @@
-// Wire Peripheral Sender
-// by Nicholas Zambetti <http://www.zambetti.com>
 
-// Demonstrates use of the Wire library
-// Sends data as an I2C/TWI peripheral device
-// Refer to the "Wire Master Reader" example for use with this
-
-// Created 29 March 2006
-
-// This example code is in the public domain.
 
 #include <WiFi.h>
 #include <Wire.h>
@@ -27,7 +18,7 @@ void initWiFi() {
 }
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   Wire.begin(8);                // join i2c bus with address #8
   
   initWiFi();
