@@ -6,7 +6,6 @@
 typedef struct struct_message {
   int id;
   int x;
-  int y;
 }struct_message;
 
 // Create a struct_message called myData
@@ -32,9 +31,7 @@ void OnDataRecv(const uint8_t * mac_addr, const uint8_t *incomingData, int len) 
   Serial.printf("Board ID %u: %u bytes\n", myData.id, len);
   // Update the structures with the new incoming data
   boardsStruct[myData.id-1].x = myData.x;
-  boardsStruct[myData.id-1].y = myData.y;
   Serial.printf("x value: %d \n", boardsStruct[myData.id-1].x);
-  Serial.printf("y value: %d \n", boardsStruct[myData.id-1].y);
   Serial.println();
 }
  

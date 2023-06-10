@@ -4,7 +4,7 @@
 #include <WiFi.h>
 
 // REPLACE WITH YOUR ESP RECEIVER'S MAC ADDRESS
-uint8_t broadcastAddress1[] = {0x24, 0x6F, 0x28, 0x97, 0x74, 0xFA};
+uint8_t broadcastAddress1[] = {0x24, 0x6F, 0x28, 0x97, 0x69, 0x04};
 
 
 typedef struct test_struct {
