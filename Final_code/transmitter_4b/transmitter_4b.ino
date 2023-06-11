@@ -51,8 +51,8 @@ void loop() {
   while (Wire.available()) { // peripheral may send less than requested
     int c = Wire.read(); // receive a byte as character
     Serial.println(c);         // print the character
-    myData.id = 4;
-    myData.x = c
+    myData.id = 4; //NEED TO CHANGE FOR EACH ONE
+    myData.x = c;
      esp_err_t result = esp_now_send(broadcastAddress, (uint8_t *) &myData, sizeof(myData));
    
   if (result == ESP_OK) {
