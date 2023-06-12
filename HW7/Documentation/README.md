@@ -27,9 +27,12 @@ Our tests primarily revolved around finding a threshold value that would separat
 Whenever the sum of all the RSSI values exceed this threshold value, the hub will determine the cat to be outside the room, otherwise the cat would be considered to be inside the room. 
 To conduct these tests, we took the emitter and moved it around the room and outside the room to find the ideal value for our threshold.
 
-We attempted 3 different designs. Our first design involved all 4 sensors in each corner of the room, this design had alot of success and created very accurate readings for when the cat was in the room.
 
-![](https://github.com/UCSD-ECE16/ece16-sp23-team-cat-tracker/blob/main/HW7/Documentation/Gifs/4sensor.jpg)
+
+Our first design involved a single sensor in the back corner of the room, this setup was even less accurate if the person was near the door,
+it was also having a similar issue to the 2 sensor design where it would sense the cat "in the room" if the cat was on the other side of the wall near the sensor.
+
+![](https://github.com/UCSD-ECE16/ece16-sp23-team-cat-tracker/blob/main/HW7/Documentation/Gifs/1sensor.jpg)
 
 
 Our second design involved only 2 sensors, we took 2 sensors and placed both in the back of the room furthest from the door.
@@ -38,11 +41,9 @@ The sensors would sense it near as if it were in the room but nearer to the door
 
 ![](https://github.com/UCSD-ECE16/ece16-sp23-team-cat-tracker/blob/main/HW7/Documentation/Gifs/2sensor.jpg)
 
+Our final design involved all 4 sensors in each corner of the room, this design had alot of success and created very accurate readings for when the cat was in the room.
 
-our third and final design involved a single sensor in the back corner of the room, this setup was even less accurate if the person was near the door,
-it was also having a similar issue to the 2 sensor design where it would sense the cat "in the room" if the cat was on the other side of the wall near the sensor.
-
-![](https://github.com/UCSD-ECE16/ece16-sp23-team-cat-tracker/blob/main/HW7/Documentation/Gifs/1sensor.jpg)
+![](https://github.com/UCSD-ECE16/ece16-sp23-team-cat-tracker/blob/main/HW7/Documentation/Gifs/4sensor.jpg)
 
 
 
