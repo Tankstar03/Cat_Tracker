@@ -22,7 +22,29 @@ We asked our customer for any feedback regarding this new iteration. The only de
 After discussing and conducting a thought experiment with the professor, we determined that this iteration was not feasible. Since given the possibility that the device will output an incorrect result, this can cause all subsequent detections to be erroneous. As a result, the risk for such errors to occur was too high, and we decided to scrap this design.
 
 ### Iteration 2:
-With the new iteration containing 4 receivers and a separate hub, we were then able to successively conduct tests. Our tests primarily revolved around finding a threshold value that would separate the inside of the room from the outside of the room. Whenever the sum of all the RSSI values exceed this threshold value, the hub will determine the cat to be outside the room, otherwise the cat would be considered to be inside the room. To conduct these tests, we took the emitter and moved it around the room and outside the room to find the ideal value for our threshold.
+With the new iteration containing 4 receivers and a separate hub, we were then able to successively conduct tests. 
+Our tests primarily revolved around finding a threshold value that would separate the inside of the room from the outside of the room. 
+Whenever the sum of all the RSSI values exceed this threshold value, the hub will determine the cat to be outside the room, otherwise the cat would be considered to be inside the room. 
+To conduct these tests, we took the emitter and moved it around the room and outside the room to find the ideal value for our threshold.
+
+We attempted 3 different designs. Our first design involved all 4 sensors in each corner of the room, this design had alot of success and created very accurate readings for when the cat was in the room.
+
+![](https://github.com/UCSD-ECE16/ece16-sp23-team-cat-tracker/blob/main/HW7/Documentation/Gifs/4sensor.jpg)
+
+
+Our second design involved only 2 sensors, we took 2 sensors and placed both in the back of the room furthest from the door.
+This set up led to slightly less accurate results compared to our 4 sensor test. This test especially would fail when someone was on the other side of the wall near the sensors,
+The sensors would sense it near as if it were in the room but nearer to the door (away from the sensors)
+
+![](https://github.com/UCSD-ECE16/ece16-sp23-team-cat-tracker/blob/main/HW7/Documentation/Gifs/2sensor.jpg)
+
+
+our third and final design involved a single sensor in the back corner of the room, this setup was even less accurate if the person was near the door,
+it was also having a similar issue to the 2 sensor design where it would sense the cat "in the room" if the cat was on the other side of the wall near the sensor.
+
+![](https://github.com/UCSD-ECE16/ece16-sp23-team-cat-tracker/blob/main/HW7/Documentation/Gifs/1sensor.jpg)
+
+
 
 ## Challenge 3: Final Product
 
