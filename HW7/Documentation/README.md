@@ -41,18 +41,18 @@ LEGEND:
 GREEN : LED ON, cat is detected as in the room
 RED: LED OFF, cat is detected as out of the room
 
-![](https://github.com/UCSD-ECE16/ece16-sp23-team-cat-tracker/blob/main/HW7/Documentation/Figs/1sensor.jpg)
+![](Figs/1sensor.jpg)
 
 
 Our second design involved only 2 sensors, we took 2 sensors and placed both in the back of the room furthest from the door.
 This set up led to slightly less accurate results compared to our 4 sensor test. This test especially would fail when someone was on the other side of the wall near the sensors,
 The sensors would sense it near as if it were in the room but nearer to the door (away from the sensors)
 
-![](https://github.com/UCSD-ECE16/ece16-sp23-team-cat-tracker/blob/main/HW7/Documentation/Figs/2sensor.jpg)
+![](Figs/2sensor.jpg)
 
 Our final design involved all 4 sensors in each corner of the room, this design had alot of success and created very accurate readings for when the cat was in the room.
 
-![](https://github.com/UCSD-ECE16/ece16-sp23-team-cat-tracker/blob/main/HW7/Documentation/Figs/4sensor.jpg)
+![](Figs/4sensor.jpg)
 
 
 
